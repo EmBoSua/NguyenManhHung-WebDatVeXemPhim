@@ -1,0 +1,29 @@
+﻿
+
+.rChiMuc {
+    color: black;
+    margin: 30px 0 30px 30px;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.rDiaDiemAll {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.rDiaDiem {
+    text-align: center;
+    line-height: 50px;
+    border: 2px solid red;
+    margin: 10px;
+    padding: 10px;
+}
+
+.rMotDong {
+    margin-top: 20px 0 30px 0;
+}
+
+.rKhungNgoai {
+}

@@ -1,0 +1,152 @@
+﻿
+/* banner */
+.backgroudSlide {
+    background-repeat: repeat;
+    padding: 25px;
+}
+
+.slide {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+.chuyen-slide {
+    width: 9999px;
+    transition: all 0.7s;
+}
+
+    .chuyen-slide img {
+        width: 1000px;
+        height: 400px;
+        float: left;
+    }
+
+.dieuHuong {
+    position: absolute;
+    border: none;
+    width: 100%;
+    size: 50px;
+    top: 48%;
+    display: none;
+}
+
+.slide:hover .dieuHuong {
+    display: block;
+}
+
+.dieuHuong #btn-Phai {
+    float: right;
+    margin-right: 20px;
+    width: 50px;
+}
+
+.dieuHuong #btn-Trai {
+    margin-left: 20px;
+    width: 50px;
+}
+
+
+
+
+
+/* Tieu de muc */
+.tieuDeMuc {
+    color: black;
+    margin: 30px 0 30px 30px;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+/* Mot bo phim */
+.Phim {
+    width: 250px;
+    height: 400px;
+    position: relative;
+    margin: 5px;
+}
+
+    .Phim:hover {
+        box-shadow: 0px 1px 15px rgb(212, 212, 212);
+    }
+
+.trailer img {
+    width: 100%;
+    height: 100%;
+    background: rgb(170, 169, 255);
+}
+
+.contentPhim {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0,0.5);
+    width: 100%;
+    height: 30%;
+    display: none;
+}
+
+.namePhim {
+    color: white;
+    margin: 10px 5px 0 5px;
+}
+
+.btn {
+    background: red;
+    color: rgb(238, 235, 235);
+    padding: 5px 7px;
+    border: 0;
+    position: absolute;
+    bottom: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btnChiTiet {
+    left: 5px;
+}
+
+.btnMua {
+    right: 5px;
+}
+
+.moveSelection {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Phim:hover {
+    box-shadow: 0px 1px 15px rgb(212, 212, 212);
+}
+
+    .Phim:hover .contentPhim {
+        display: block;
+    }
+
+/* Event - khuyen mai */
+.event {
+    width: 100%;
+}
+
+.khuyeMai1 {
+    padding: 5px;
+}
+
+.khuyeMai2 {
+    padding: 5px;
+}
+
+.khuyeMai3 {
+    padding: 5px;
+}
+
+.imageKhuyenMai {
+}
+
+.event {
+    display: flex;
+    justify-content: center;
+}

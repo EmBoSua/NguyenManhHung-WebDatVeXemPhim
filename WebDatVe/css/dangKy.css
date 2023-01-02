@@ -1,0 +1,53 @@
+﻿
+/*trang tao tai khoan*/
+.khungBao {
+    width: 400px;
+    box-sizing: border-box;
+    padding: 30px 30px 30px 30px;
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.khungBao h2 {
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.iptInfor {
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border: 1px solid black;
+    padding-left: 7px;
+}
+
+.lbDieuKhoan {
+    float: left;
+    margin-top: 10px
+}
+
+.btnDK_DN {
+    margin-top: 20px;
+    width: 100%;
+    height: 30px;
+    background: black;
+    color: white;
+    border: none;
+}
+
+.errorText {
+    text-align: left;
+    color: red;
+    font-size: 12px;
+}
+
+
+/*dat mau nen cho content*/
+.content {
+    margin-top: 70px;
+}
+
+

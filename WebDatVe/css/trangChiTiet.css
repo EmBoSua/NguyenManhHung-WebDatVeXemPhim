@@ -1,0 +1,164 @@
+﻿.Layout {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.tenPhim1 {
+    color: black;
+    font-size: 30px;
+}
+
+.anhPhim {
+    width: 250px;
+    height: 400px;
+}
+
+    .anhPhim img {
+        width: 100%;
+    }
+
+.chiTietPhim {
+    display: flex;
+    margin-top: 20px;
+}
+
+.content2 {
+    margin-left: 20px;
+    flex: 1;
+}
+
+.content div h3 {
+    color: black;
+    margin-bottom: 10px;
+}
+
+.table {
+    margin-top: 20px;
+    color: black;
+}
+
+.table div {
+    display: flex;
+    margin-bottom: 7px;
+}
+
+.chiMuc {
+    min-width: 100px;
+    font-weight: bold;
+
+}
+
+.btnMuaVe div {
+    background: red;
+    color: white;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 150px;
+    cursor: pointer;
+}
+
+.btnMuaVe {
+    text-decoration: none;
+}
+
+.moTa {
+    margin-top: 20px;
+    color: black;
+}
+
+    .moTa h3 {
+        font-size: 19px;
+        margin-bottom: 15px;
+    }
+
+    .moTa p {
+        font-size: 17px;
+    }
+
+
+.ctDongKe3 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.ctPhim {
+    width: 200px;
+    height: 270px;
+    position: relative;
+    margin: 5px;
+}
+
+
+.tieuDeMuc {
+    color: black;
+    margin: 30px 0 30px 30px;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+/* Mot bo phim */
+.ctPhim {
+    width: 200px;
+    height: 270px;
+    position: relative;
+    margin: 5px;
+}
+
+    .ctPhim:hover {
+        box-shadow: 0px 1px 15px rgb(212, 212, 212);
+    }
+
+.trailer img {
+    width: 100%;
+    height: 100%;
+    background: rgb(170, 169, 255);
+}
+
+.contentPhim {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0,0.5);
+    width: 100%;
+    height: 30%;
+    display: none;
+}
+
+.namePhim {
+    color: black;
+    margin: 10px 5px 0 5px;
+}
+
+.btn {
+    background: red;
+    color: rgb(238, 235, 235);
+    padding: 5px 7px;
+    border: 0;
+    position: absolute;
+    bottom: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btnChiTiet {
+    left: 5px;
+}
+
+.btnMua {
+    right: 5px;
+}
+
+.moveSelection {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.ctPhim:hover {
+    box-shadow: 0px 1px 15px rgb(212, 212, 212);
+}
+
+    .ctPhim:hover .contentPhim {
+        display: block;
+    }

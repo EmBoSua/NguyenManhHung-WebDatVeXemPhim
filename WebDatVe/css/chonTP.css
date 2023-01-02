@@ -1,0 +1,52 @@
+﻿
+/*phan than chon thanh pho*/
+.divKhungCTP {
+    width: 900px;
+    background: rgb(112, 112, 112);
+    margin: 50px auto 0 auto;
+    display: flex;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.divAnhPhim {
+    width: 260px;
+    height: 300px;
+    background: red;
+}
+
+    .divAnhPhim img {
+        width: 100%;
+        height: 100%;
+    }
+
+.chonThanhPho {
+    margin: 20px;
+    width: 100%;
+}
+
+    .chonThanhPho h2 {
+        color: white;
+    }
+
+.btnCTP {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+
+.dongKe1 {
+    margin-bottom: 20px;
+}
+
+.allBTN {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btnCTP div {
+    border: 1px solid red;
+    margin: 20px;
+    padding: 10px;
+}
